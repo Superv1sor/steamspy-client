@@ -22,7 +22,7 @@ const App = () => {
 
       const result = await axios({
         // url: `http://192.168.178.21:3013/items`,
-        url: `https://steamspy-api.herokuapp.com/items`,
+        url: `https://steamspy-server.onrender.com/items`,
         method: "get",
         timeout: 8000,
         headers: {
